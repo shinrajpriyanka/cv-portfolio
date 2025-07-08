@@ -20,7 +20,7 @@ useGSAP(() => {
     })
 })
   return (
-    <div id="skills" className='flex-center section-padding mb-20'>
+    <div id="skills" className='flex-center section-padding mb-20 md:pt-40 pt-20'>
         <div className='w-full h-full md:px-10 px-5'>
             <TitleHeader title="My tech stack" sub="The skills I bring to the table"/>
             <div className='tech-grid'>

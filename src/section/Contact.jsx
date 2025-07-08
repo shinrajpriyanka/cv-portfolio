@@ -38,7 +38,7 @@ const Contact = () => {
   };
 
    return (
-    <section id="contact" className="flex-center section-padding">
+    <section id="contact" className="flex-center section-padding md:pt-40 pt-20">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Get in Touch – Let’s Connect"

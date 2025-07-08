@@ -41,7 +41,7 @@ const ExperienceCards = () => {
         
     }, [])
   return (
-    <section id="experience" className='w-full md:mt-40 mt-20 section-padding xl:px-0'>
+    <section id="experience" className='w-full md:pt-40 pt-20 section-padding xl:px-0'>
       <div className='w-full h-full md:px-20 px-5'>
         <TitleHeader title="Professional Work Experience" sub="My career overview"/>
         <div className='mt-32 relative'>
@@ -54,9 +54,7 @@ const ExperienceCards = () => {
                                     <img src={card.imgPath} alt={card.title}/>
                                 </div>
                             </GlowCard>
-                        </div>
-
-                        
+                        </div>                        
                         <div className='xl:w-4/6'>
                             <div className='flex items-start'>
                                 <div className='timeline-wrapper'>
