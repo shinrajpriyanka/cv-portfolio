@@ -90,31 +90,31 @@ const techStackImgs = [
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: "/images/logos/react.png",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
+    modelPath: "/images/logos/python.png",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
     name: "Javascript Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: "/images/logos/node.png",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: "/images/logos/three.png",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Project Manager, Scrum",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: "/images/logos/git.svg",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
