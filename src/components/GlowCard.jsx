@@ -20,8 +20,8 @@ const GlowCard = ({card, children, index}) => {
       <div className='glow'/>
       <div className='flex items-center gap-1 mb-5'>
         {Array.from({length: 1}, (_, i)=> (
-            <div className='flex items-center justify-center'>
-            <img src="/images/star.png" key={i} alt="star" className='size-4'/>
+            <div className='flex items-center justify-center' key={i}>
+            <img src="/cv-portfolio/images/star.png" alt="star" className='size-4'/>
             <span className='text-white-50 text-lg pl-2.5'>{card.review}</span>
             </div>
         ))}

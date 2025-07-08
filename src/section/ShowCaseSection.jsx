@@ -46,7 +46,7 @@ useGSAP(() => {
                 {/*LEFT */}
                 <div className='first-project-wrapper'>
                     <div className='image-wrapper'>
-                        <img src="/images/project1.png" alt="Ryde" />
+                        <img src="/cv-portfolio/images/project1.png" alt="Ryde" />
                     </div>
                     <div className='text-content'>
                         <h2>
@@ -62,13 +62,13 @@ useGSAP(() => {
                 <div className='project-list-wrapper overflow-hidden'>
                     <div ref={project1Ref} className="project">
                         <div className='image-wrapper bg-[#ffefdb]'>
-                            <img src="/images/project2.png" alt='Library management Platform'/>
+                            <img src="/cv-portfolio/images/project2.png" alt='Library management Platform'/>
                         </div>
                         <h2>Library management</h2>
                     </div>
                     <div ref={project2Ref} className="project">
                         <div className='image-wrapper bg-[#ffe7eb]'>
-                            <img src="/images/project2.png" alt='Library management Platform'/>
+                            <img src="/cv-portfolio/images/project2.png" alt='Library management Platform'/>
                         </div>
                         <h2>Directory management</h2>
                     </div>
