@@ -95,6 +95,12 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
+    name: "Python Developer",
+    modelPath: "/cv-portfolio/models/python-transformed.glb",
+    scale: 0.8,
+    rotation: [0, 0, 0],
+  },
+  {
     name: "Javascript Developer",
     modelPath: "/cv-portfolio/models/node-transformed.glb",
     scale: 5,
