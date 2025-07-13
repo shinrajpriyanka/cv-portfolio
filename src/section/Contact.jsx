@@ -45,7 +45,7 @@ const Contact = () => {
           sub="💬 Have questions or ideas? Let’s talk! 🚀"
         />
         <div className="grid-12-cols mt-16">
-          <div className="xl:col-span-3"></div>
+          <div className="xl:col-span-1"></div>
           <div className="xl:col-span-6">
             <div className="flex-center card-border rounded-xl p-10">
               <form
@@ -106,7 +106,8 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="xl:col-span-3">
+          <div className="xl:col-span-4">
+            <img className="rounded-full" src="/cv-portfolio/images/Profile.jpg" alt="Profile image"></img>
           </div>
         </div>
       </div>
