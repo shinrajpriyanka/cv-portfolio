@@ -126,7 +126,7 @@ const expCards = [
       "Angular, React, HTML5, CSS3, JavaScript, ES6, Tailwind",
     imgPath: "/cv-portfolio/images/logos/GL-logo.svg",
     logoPath: "/cv-portfolio/images/GL-icon.ico",
-    title: "Frontend Developer",
+    title: "Senior Lead",
     date: "August 2020 - Present",
     responsibilities: [
       "Developed and maintained user-facing features for the Hostinger website.",
@@ -141,7 +141,7 @@ const expCards = [
       "HTML5, CSS3, JavaScript, D3.js, Chart.js, NG-charts",
     imgPath: "/cv-portfolio/images/logos/alten.svg",
     logoPath: "/cv-portfolio/images/alten.webp",
-    title: "Frontend Developer",
+    title: "Senior Software Engineer",
     date: "January 2020 - July 2020",
     responsibilities: [
       "Developed an application to determine the lifetime of flight engines based on historic data",
@@ -155,7 +155,7 @@ const expCards = [
       "AngularJS, Bootstrap 3, JQuery, HTML5, CSS3, JavaScript",
     imgPath: "/cv-portfolio/images/logos/Info.svg",
     logoPath: "/cv-portfolio/images/infosys-icon.ico",
-    title: "Frontend Developer",
+    title: "Consultant",
     date: "Oct 2014 - April 2018",
     responsibilities: [
       "Built cross-platform desktop applications using React, integrating with backend services.",
