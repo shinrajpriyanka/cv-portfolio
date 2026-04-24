@@ -157,12 +157,7 @@ const Projects = () => {
                         </button>
                         <button
                             className={`projects-tab-btn ${activeTab === 'hobby' ? 'active' : ''}`}
-                            onClick={() => {
-                                setActiveTab('hobby');
-                                import('../utils/confetti').then(({ triggerSprinkler }) => {
-                                    triggerSprinkler(2000); // 2 seconds of sprinkler
-                                });
-                            }}
+                            onClick={() => setActiveTab('hobby')}
                         >
                             <span className="tab-icon">🚀</span>
                             <span>Hobby Projects</span>

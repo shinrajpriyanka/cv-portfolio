@@ -431,6 +431,7 @@ section {
 }
 
 .card::before {
+  pointer-events: none;
   position: absolute;
   content: "";
   width: 100%;
@@ -649,6 +650,11 @@ section {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(14, 14, 16, 0.9) 0%, transparent 60%);
+}
+
+.hobby-card-content {
+  position: relative;
+  z-index: 10;
 }
 
 .hobby-tag {
