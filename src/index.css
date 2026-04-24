@@ -48,7 +48,7 @@ section {
   }
 
   .section-padding {
-    @apply px-5 md:px-10 md:mt-40 mt-20;
+    @apply px-5 md:px-10;
   }
 
   .mt-responsive {
@@ -469,4 +469,306 @@ section {
 
 .card:hover::before {
   opacity: 1;
+}
+
+/* ===================== PROJECTS SECTION ===================== */
+
+/* Tab Switcher */
+.projects-tab-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-tab-switcher {
+  display: flex;
+  background: #0e0e10;
+  border: 1px solid #282732;
+  border-radius: 14px;
+  padding: 6px;
+  gap: 6px;
+}
+
+.projects-tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 28px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #839cb5;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projects-tab-btn .tab-icon {
+  font-size: 1.1rem;
+}
+
+.projects-tab-btn:hover {
+  color: #ffffff;
+  background: #1c1c21;
+}
+
+.projects-tab-btn.active {
+  background: linear-gradient(135deg, #2d2d38 0%, #1c1c21 100%);
+  color: #ffffff;
+  border: 1px solid #3a3a4a;
+  box-shadow: 0 2px 12px rgba(82, 174, 255, 0.12);
+}
+
+/* Work Project Cards */
+.work-project-card {
+  background: #0e0e10;
+  border: 1px solid #282732;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-project-card:hover {
+  transform: translateY(-4px);
+  border-color: #3a3a50;
+  box-shadow: 0 12px 40px rgba(82, 174, 255, 0.1);
+}
+
+.work-project-icon-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2d2d38, #1c1c21);
+  border: 1px solid #3a3a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.work-project-icon {
+  font-size: 1.5rem;
+}
+
+.work-project-domain-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: linear-gradient(135deg, #2d2d38, #282732);
+  color: #52aeff;
+  border: 1px solid #3a3a50;
+}
+
+.work-project-meta {
+  background: #1c1c21;
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 1px solid #282732;
+}
+
+.work-company-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #0e0e10;
+  padding: 4px;
+  border: 1px solid #282732;
+}
+
+.work-bullet-dot {
+  color: #52aeff;
+  font-size: 0.65rem;
+  line-height: 1.6;
+}
+
+.work-tech-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: #1c1c21;
+  color: #839cb5;
+  border: 1px solid #282732;
+  transition: all 0.2s ease;
+}
+
+.work-tech-tag:hover {
+  background: #2d2d38;
+  color: #d9ecff;
+  border-color: #3a3a50;
+}
+
+/* Hobby Project Cards */
+.hobby-card {
+  background: #0e0e10;
+  border: 1px solid #282732;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 48px rgba(82, 174, 255, 0.12);
+}
+
+.hobby-card-image-wrapper {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.hobby-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.hobby-card:hover .hobby-card-image {
+  transform: scale(1.05);
+}
+
+.hobby-card-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1c1c21, #0e0e10);
+}
+
+.hobby-placeholder-icon {
+  font-size: 4rem;
+  opacity: 0.7;
+}
+
+.hobby-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(14, 14, 16, 0.9) 0%, transparent 60%);
+}
+
+.hobby-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: #1c1c21;
+  color: #52aeff;
+  border: 1px solid #2d2d38;
+}
+
+.hobby-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 18px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.hobby-btn-primary {
+  background: linear-gradient(135deg, #52aeff, #2d78c8);
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.hobby-btn-primary:hover {
+  background: linear-gradient(135deg, #70beff, #3a90e0);
+  transform: translateX(2px);
+  box-shadow: 0 4px 16px rgba(82, 174, 255, 0.3);
+}
+
+.hobby-btn-secondary {
+  background: transparent;
+  color: #839cb5;
+  border: 1px solid #282732;
+}
+
+.hobby-btn-secondary:hover {
+  background: #1c1c21;
+  color: #d9ecff;
+  border-color: #3a3a4a;
+}
+
+/* ===================== HAPPY MOMENTS SECTION ===================== */
+
+.moment-card {
+  background: #0e0e10;
+  border: 1px solid #282732;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.moment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(82, 174, 255, 0.1);
+}
+
+.moment-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #1c1c21, #282732);
+  border: 1px solid #3a3a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.moment-emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.moment-icon-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.moment-type-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid;
+}
+
+.moment-type-badge:empty {
+  display: none;
+}
+
+/* Award badge — gold tint */
+.moment-card:has(.moment-type-badge) .moment-type-badge {
+  background: rgba(255, 193, 7, 0.08);
+  color: #f5c842;
+  border-color: rgba(245, 200, 66, 0.3);
+}
+
+.moment-credential-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #52aeff;
+  text-decoration: none;
+  margin-top: 4px;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.moment-credential-link:hover {
+  color: #70beff;
+  gap: 8px;
 }
